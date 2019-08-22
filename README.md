@@ -6,9 +6,9 @@ The source codes are modified versions from original source code from [TransE](h
 ## Usage instructions
 ### Datasets and related files
 * 1. Freebase
-     1.01 entity2id
-     1.02 relation2id
-     1.03 type2id
+          1.01 entity2id
+          1.02 relation2id
+          1.03 type2id
      1.04 train(FB15K)
      1.05 valid(FB15K)
      1.06 test(FB15K)
