@@ -35,8 +35,8 @@ The source codes are modified versions from original source code from [TransE](h
 * 1. Epochs and batch size  
 ```Java
 public static void train_run() throws IOException {
-          int nepoch = 800;                   //epochs
-          int nbatches = 400;                 //batch size
+          int nepoch = 800;                   // epochs
+          int nbatches = 400;                 // batch size
           if (method == 0) {
           version = "unif";
     }
@@ -54,8 +54,8 @@ public class GlobalValue {
     static boolean L1_flag = true;            // distance is l1 or l2
     static int vector_len = 50;               // the entity embedding dimension
     static int m = 40;                        // entity type embedding dimension
-    static double learning_rate1 = 0.01;      //triple learning rate
-    static double learning_rate2 = 0.01;      //pair learning rate
+    static double learning_rate1 = 0.01;      // triple learning rate
+    static double learning_rate2 = 0.01;      // pair learning rate
     static double margin1 = 3;                // triple margin
     static double margin2 = 1;                // pair margin
     static int method = 1;                    // method = 1 means bern version, else unif version
