@@ -13,7 +13,7 @@ public class Main {
         if (train_flag) {
             System.out.println("Begin train");
             TrainRun.train_run();
-            TestRun.test_run();
+            //TestRun.test_run();
         } else {
             System.out.println("Begin test");
             TestRun.test_run();
