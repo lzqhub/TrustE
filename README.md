@@ -33,4 +33,4 @@ The source codes are modified versions from original source code from [TransE](h
           1.11 YAGO43k_Entity_Type_test
 ### Parameter setup  
 
-          '''11111111'''
+'''11111111'''
