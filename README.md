@@ -32,7 +32,7 @@ The source codes are modified versions from original source code from [TransE](h
           1.10 YAGO43k_Entity_Type_valid
           1.11 YAGO43k_Entity_Type_test
 ### Parameter setup  
-* 1. epochs and batch size  
+* 1. Epochs and batch size  
 ```Java
 public static void train_run() throws IOException {
           int nepoch = 800;//epochs
@@ -47,3 +47,24 @@ public static void train_run() throws IOException {
           train.run(nepoch, nbatches);
 }
 ```
+* 2. Other parameters
+```Java
+public class GlobalValue {
+    // some train parameters
+    static boolean L1_flag = true; // distance is l1 or l2
+    static int vector_len = 50; // the entity embedding dimension
+    static int m = 40; // entity type embedding dimension
+    static double learning_rate1 = 0.01; //triple learning rate
+    static double learning_rate2 = 0.01; //pair learning rate
+    static double margin1 = 3; // triple margin
+    static double margin2 = 1; // pair margin
+    static int method = 1;  // method = 1 means bern version, else unif version
+    static double lameda1 = 0.8; // LT weight
+    static double lameda2 = 0.2; // GT weight
+    .
+    .
+    .
+    }
+```
+### How to run  
+Before we run the model, we should first generate the related files above, like entity2id etc. And then just run the main function, if you want to train, input y, or others to test.
