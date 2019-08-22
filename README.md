@@ -39,13 +39,13 @@ public static void train_run() throws IOException {
           int nbatches = 400;                 //batch size
           if (method == 0) {
           version = "unif";
-}
+    }
           System.out.printf("iteration times = %s\n", nepoch);
           System.out.printf("nbatches = %s\n", nbatches);
           train = new Train();
           prepare();
           train.run(nepoch, nbatches);
-}
+    }
 ```
 * 2. Other parameters
 ```Java
