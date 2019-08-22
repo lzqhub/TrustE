@@ -31,4 +31,6 @@ The source codes are modified versions from original source code from [TransE](h
           1.09 YAGO43k_Entity_Type_train40(YAGO43KET-N3)
           1.10 YAGO43k_Entity_Type_valid
           1.11 YAGO43k_Entity_Type_test
-### Parameter setup
+### Parameter setup  
+
+          '''11111111'''
