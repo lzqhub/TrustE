@@ -1,6 +1,6 @@
 # TrustE
-          TrustE fcous on learning better embeddings of entities and entitiy types in a noisy environment. Our code implement TrustE model on two dataset(Freebase and YAGO)
-          Author：lizhiquan@smail.swufe.edu.cn
+TrustE fcous on learning better embeddings of entities and entitiy types in a noisy environment. Our code implement TrustE model on two dataset(Freebase and YAGO)\n
+Author：lizhiquan@smail.swufe.edu.cn
 Environment:Java 1.8
 The source codes are modified versions from original source code from [TransE](https://github.com/MaximTian/TransX)
 ## Usage instructions
