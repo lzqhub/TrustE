@@ -32,5 +32,17 @@ The source codes are modified versions from original source code from [TransE](h
           1.10 YAGO43k_Entity_Type_valid
           1.11 YAGO43k_Entity_Type_test
 ### Parameter setup  
-
-'''11111111'''
+    ```Java      
+    public static void train_run() throws IOException {
+        int nepoch = 800;
+        int nbatches = 400;
+        if (method == 0) {
+            version = "unif";
+        }
+        System.out.printf("iteration times = %s\n", nepoch);
+        System.out.printf("nbatches = %s\n", nbatches);
+        train = new Train();
+        prepare();
+        train.run(nepoch, nbatches);
+    }
+    ```
