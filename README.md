@@ -26,7 +26,7 @@ The source codes are modified versions from original source code from [TransE](h
           1.04 train(YAGO43K)
           1.05 valid(YAGO43K)
           1.06 test(YAGO43K)
-          1.07 YAGO43k_Entity_Type_train10(YAGO43KET-N1, noisy data is append directly behind the FB15k_Entity_Type_train)
+          1.07 YAGO43k_Entity_Type_train10(YAGO43KET-N1, noisy data is append directly behind the YAGO43k_Entity_Type_train)
           1.08 YAGO43k_Entity_Type_train20(YAGO43KET-N2)
           1.09 YAGO43k_Entity_Type_train40(YAGO43KET-N3)
           1.10 YAGO43k_Entity_Type_valid
